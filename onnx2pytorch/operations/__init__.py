@@ -36,6 +36,7 @@ from .topk import TopK
 from .transpose import Transpose
 from .unsqueeze import Unsqueeze
 from .where import Where
+from .greaterorequal import GreaterOrEqual
 
 __all__ = [
     "Add",
@@ -77,4 +78,5 @@ __all__ = [
     "Unsqueeze",
     "Upsample",
     "Where",
+    "GreaterOrEqual"
 ]
