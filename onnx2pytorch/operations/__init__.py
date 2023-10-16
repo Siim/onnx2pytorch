@@ -37,6 +37,7 @@ from .transpose import Transpose
 from .unsqueeze import Unsqueeze
 from .where import Where
 from .greaterorequal import GreaterOrEqual
+from .gatherelements impport GatherElements
 
 __all__ = [
     "Add",
@@ -79,4 +80,5 @@ __all__ = [
     "Upsample",
     "Where",
     "GreaterOrEqual"
+    "GatherElements"
 ]
