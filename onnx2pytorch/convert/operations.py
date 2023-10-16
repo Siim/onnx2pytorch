@@ -19,7 +19,7 @@ from onnx2pytorch.convert.layer import (
 )
 from onnx2pytorch.operations import *
 from onnx2pytorch.operations.base import OperatorWrapper
-from onnx2pytorch.operations import Resize, Upsample
+from onnx2pytorch.operations import Resize, Upsample, GreaterOrEqual, GatherElements
 from onnx2pytorch.utils import (
     get_inputs_names,
     get_outputs_names,
